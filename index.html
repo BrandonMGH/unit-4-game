@@ -4,63 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Crystals Collector</title>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
 <body>
-    <header>
-        <div class="container">
-            <h2 id="name">Crystals Collector!</h2>
+    <div class="wrapper">
+        <div class="sideColumn"></div>
+        <div class="centerColumn">
+            <div>
+                <h2 id="name">Crystals Collector!</h2>
 
-            <div class="paragraph">
-                <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below.By clicking on a crystal you will add a specific amount of points to
-                    your total
-                    score.</p>
-                <p>You win the game by matching your total score to random number,you lose the game if your total score
-                    goes
-                    above the random number.</p>
-                <p>The value of each crystal is hidden from you untill you click on it</p>
-                <p>Each time when the game starts, the game will change the values of each crystal</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="assets/images/Link.jpg" height="200" width="300">
+                <div class="paragraph">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below.By clicking on a crystal you will add a specific amount of points
+                        to
+                        your total
+                        score.</p>
+                    <p>You win the game by matching your total score to random number,you lose the game if your total
+                        score
+                        goes
+                        above the random number.</p>
+                    <p>The value of each crystal is hidden from you untill you click on it</p>
+                    <p>Each time when the game starts, the game will change the values of each crystal</p>
                 </div>
-                <div class="col-lg-4">
-                    <div class="start">
-                        <div class="total"></div>
-                        <div class="result">
-                            Wins:<div id="wins"></div>
-                            Losses:<div id="losses"></div>
+            </div>
+            <div>
+                <div>
+                    <div class="col-lg-4">
+                        <img src="assets/images/Link.jpg" height="200" width="300">
+                    </div>
+                    <div>
+                        <div class="start">
+                            <div class="total"></div>
+                            <div class="result">
+                                Wins:<div id="wins"></div>
+                                Losses:<div id="losses"></div>
+                            </div>
+                            <div class="score">
+                                Your total score is:
+                            </div>
+                            <div class="scoreUpdate"></div>
                         </div>
-                        <div class="score">
-                            Your total score is:
-                        </div>
-                        <div class="scoreUpdate"></div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="assets/images/ganondorf.png" height="200" width="300">
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="assets/images/ganondorf.png" height="200" width="300">
+                <div>
+                    <div class="crystals">
+                        <img class="click" id="green" src="assets/images/green rupee.jpg" height="200" width="200">
+                        <img class="click" id="blue" src="assets/images/blue rupee.jpg" height="200" width="200">
+                        <img class="click" id="red" src="assets/images/red rupee.jpg" height="200" width="200">
+                        <img class="click" id="purple" src="assets/images/purple rupee.jpg" height="200" width="200">
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-            <div class="crystals">
-                <img class="click" id="green" src="assets/images/green rupee.jpg" height="200" width="200">
-                <img class="click" id="blue" src="assets/images/blue rupee.jpg" height="200" width="200">
-                <img class="click" id="red" src="assets/images/red rupee.jpg" height="200" width="200">
-                <img class="click" id="purple" src="assets/images/purple rupee.jpg" height="200" width="200">
-            </div>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        <div class="sideColumn"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
