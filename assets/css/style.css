@@ -3,13 +3,14 @@ body{
 }
 
 .container {
-    padding: 20px;
+	padding: 20px; 
     border: goldenrod; 
     border-top-style: dotted;
     border-right-style: dotted;
     border-bottom-style: dotted;
     border-left-style: dotted;
-    color: white; 
+	color: white; 
+	
     
 }
 
@@ -17,6 +18,18 @@ body{
 
 .start{
    background: goldenrod; 
+}
+
+.crystals {
+	display: grid; 
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	
+	
+}
+
+.click {
+	border: 5px solid black; 
 }
 
 /* header{
