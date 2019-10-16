@@ -3,7 +3,9 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	font-family: 'Mansalva', cursive;	
+	font-family: 'Amatic SC', cursive;
+	font-style: bold; 	
+	font-size: 30px;
 }
 
 .wrapper {
@@ -37,14 +39,14 @@ body {
 
 #name {
 	padding-bottom: 25px; 
+	font-size: 64px; 
+	text-align: center; 
 }
 
 .imgScoreRow{
 	display: grid; 
 	grid-template-columns: 25% 50% 25%;
-	/* grid-template-rows: 100%; */
 	justify-items: center;
-	
 
 }
 
