@@ -2,7 +2,8 @@ body {
 	background: url("https://archive.nerdist.com/wp-content/uploads/2015/09/legend_of_zelda___deku_tree_by_minionslayer-d7w2trc-970x545.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;	
+	background-size: cover;
+	font-family: 'Mansalva', cursive;	
 }
 
 .wrapper {
@@ -28,6 +29,14 @@ body {
 	border: 2px solid black;
 	margin-bottom: 25px; 
 	margin-top: 25px; 
+	padding-left: 25px;
+	padding-right: 25px; 
+	box-shadow: 10px 10px 5px black;
+}
+
+
+#name {
+	padding-bottom: 25px; 
 }
 
 .imgScoreRow{
@@ -35,6 +44,7 @@ body {
 	grid-template-columns: 25% 50% 25%;
 	/* grid-template-rows: 100%; */
 	justify-items: center;
+	
 
 }
 
@@ -55,10 +65,20 @@ body {
    width: 90%;
    margin: 5%;
    border: 2px solid black;
+   box-shadow: 10px 10px 5px black;
+   display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.centerScoreText{
+.start {
+	display: grid; 
+	grid-template-columns: 100%; 
 	text-align: center; 
+}
+
+.total, #wins, #losses, .score, .scoreUpdate{
+	margin: 5%
 }
 
 .crystals {

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Crystals Collector</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
 </head>
 
 
@@ -15,7 +16,7 @@
             <div class="paragraphRow">
                 <h2 id="name">Crystals Collector!</h2>
 
-                <div class="paragraph">
+                <div id="paragraph">
                     <p>You will be given a random number at the start of the game.</p>
                     <p>There are four crystals below.By clicking on a crystal you will add a specific amount of points
                         to
@@ -35,19 +36,14 @@
                         <img class="Link" src="assets/images/LinkClearBackground.png">
                     </div>
                     <div class="centerScoreColumn">
-                        <div class="centerScoreText">
-                            <div class="start">
-                                <div class="total"></div>
-                                <div class="result">
-                                    Wins:<div id="wins"></div>
-                                    Losses:<div id="losses"></div>
-                                </div>
-                                <div class="score">
-                                    Your total score is:
-                                </div>
-                                <div class="scoreUpdate"></div>
-                            </div>
-                            
+                        <div class="start">
+                            Target Score:<span class="total"></span>
+                            Wins:<span id="wins"></span>
+                            Losses:<span id="losses"></span>
+                            <span class="score">
+                                Your total score is:
+                            </span>
+                            <span class="scoreUpdate"></span>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -58,8 +54,8 @@
                     <div class="crystals">
                         <img class="click" id="green" src="assets/images/green rupee.jpg">
                         <img class="click" id="blue" src="assets/images/blue rupee.jpg">
-                        <img class="click" id="red" src="assets/images/red rupee.jpg" >
-                        <img class="click" id="purple" src="assets/images/purple rupee.jpg" >
+                        <img class="click" id="red" src="assets/images/red rupee.jpg">
+                        <img class="click" id="purple" src="assets/images/purple rupee.jpg">
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@ var restart = function(){
     total = Math.floor((Math.random()* 100) + 19);
 
 	$('.total').empty();
-	$('.total').append("Target Score:" + total);
+	$('.total').append(total);
 
 	green = Math.floor((Math.random()* 12) + 1);
     blue = Math.floor((Math.random()* 12) + 1);
@@ -51,7 +51,7 @@ var logic = function (){
 		updatescoreUpdate();
 	}
 }
-$('.total').append("Target Score: " + total);
+$('.total').append(total);
 
 $('.scoreUpdate').append(scoreUpdate);
 //function
