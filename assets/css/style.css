@@ -14,7 +14,7 @@ body {
 .sideColumn {
 	background-color: brown; 
 	width: 100%;
-	opacity: .5;
+	opacity: .7;
 	margin: -5%;
 	padding: 5%
 }
@@ -33,7 +33,7 @@ body {
 .imgScoreRow{
 	display: grid; 
 	grid-template-columns: 25% 50% 25%;
-	grid-template-rows: 100%;
+	/* grid-template-rows: 100%; */
 	justify-items: center;
 
 }
@@ -72,6 +72,7 @@ body {
 	border: 5px solid black;
 	cursor: pointer;
 	box-shadow: 10px 10px 5px black;
+	width: 80%; 
 }
 
 .click:hover {
