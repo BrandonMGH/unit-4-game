@@ -23,9 +23,29 @@ body {
 	width: 95% 
 }
 
+.imgScoreColumn{
+	display: grid; 
+	grid-template-columns: 25% 50% 25%;
+	grid-template-rows: 100%;
+	justify-items: center;
 
-.start{
-   background: goldenrod; 
+}
+
+.Link {
+	max-width: 100%;
+
+}
+
+.zelda {
+	max-width: 100%;
+	text-shadow: 10px 10px 10px #000000;
+	
+}
+
+
+.centerScoreColumn{
+   background: goldenrod;
+   width: 100%
 }
 
 .crystals {
