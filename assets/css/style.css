@@ -23,7 +23,14 @@ body {
 	width: 95% 
 }
 
-.imgScoreColumn{
+.paragraphRow{
+	background-color: #fffbdb; 
+	border: 2px solid black;
+	margin-bottom: 25px; 
+	margin-top: 25px; 
+}
+
+.imgScoreRow{
 	display: grid; 
 	grid-template-columns: 25% 50% 25%;
 	grid-template-rows: 100%;
@@ -38,14 +45,20 @@ body {
 
 .zelda {
 	max-width: 100%;
-	text-shadow: 10px 10px 10px #000000;
 	
 }
 
 
 .centerScoreColumn{
-   background: goldenrod;
-   width: 100%
+   background: #fffbdb;
+   border-radius: 25%;
+   width: 90%;
+   margin: 5%;
+   border: 2px solid black;
+}
+
+.centerScoreText{
+	text-align: center; 
 }
 
 .crystals {
@@ -53,74 +66,32 @@ body {
 	grid-template-columns: repeat(4, 1fr);
 	justify-items: center;
 	
-	
 }
 
 .click {
-	border: 5px solid black; 
+	border: 5px solid black;
+	cursor: pointer;
+	box-shadow: 10px 10px 5px black;
 }
 
-/* header{
-	width:200px;
-	height: 70px;
-	background-color: #D66324;
-	margin-bottom: 10px;
-}
-#name{
-	color: white;
-	text-align: center;
-	padding-top: 15px;
-}
-.paragraph{
-	width: 350px;
-	height:370px;
-	background-color: #EBD0B9;
-	margin-bottom: 10px;
+.click:hover {
+	animation: shake 2.5s;
+	animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 
-}
-p{
-	color: green;
-	padding: 5px;
-}
-.start{
-	height:105px;
-    width:300px;
-    display: inline-block;
-}
-.total{
-	width:150px;
-	height: 90px;
-	background-color: #49E692;
-	margin-right: 10px;
-	font-size: 30px;
-	color:#8A358F;
 
-}
-.result{
-	width:100px;
-	height: 100px;
-	background-color: #49E6D6;
-	margin-left: 160px;
-	margin-top:-90px;
-}
-.click{
-	width:80px;
-	height:80px;
-}
-.score{
-	width: 180px;
-	height:30px;
-	background-color: #12B5A2;
-	margin-bottom: 10px;
-}
-h5{
-	color: white;
-	padding-top: 7px;
-}
-.addition{
-	width:180px;
-	height:90px;
-	background-color: #12B5A2;
-	font-size: 30px;
-	color: white;
-} */
+
